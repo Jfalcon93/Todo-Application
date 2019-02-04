@@ -27,8 +27,8 @@ html {
 }
 
 body {
-    background: #2B292E;
-  color: #fafafa;
+    background: #DBC1E1;
+  color: #430C15;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
@@ -38,7 +38,7 @@ button {
 }
 
 a {
-    color: #6F439C;
+    color: #430C15;
 }
 
 /* Container */
@@ -52,8 +52,8 @@ a {
 /* Header */
 
 .header {
-  background: #6F439C;
-  color:white;
+  background: #D0EDF1;
+  color: #430C15;
   padding: 1.6rem 0;
 }
 
@@ -71,7 +71,7 @@ a {
 /* Actions Bar */
 
 .actions {
-    background-color: #353239;
+    background-color: #DBC1E1;
     /* border-bottom: 1px solid #dedfe0; */
     /* color: #333333; */
     padding: 1rem
@@ -111,10 +111,10 @@ a {
 }
 
 .button {
-    background: #7044a0;
+    background: #D0EDF1;
     border: none;
-    border-bottom: 2px solid #603a88;
-    color: white;
+    border-bottom: 2px solid #D0EDF1;
+    color: #430C15;
     font-size: 1.4rem;
     font-weight: 300;
     padding: .8rem;
@@ -122,7 +122,7 @@ a {
 }
 
 .button:hover {
-    background: #5F3A87;
+    opacity: 0.5;
 }
 
 .button--secondary {
@@ -220,4 +220,16 @@ a {
 
 .empty-message {
     margin: 3.2rem 0;
+}
+
+
+#mydiv {
+    padding-left: 5px;
+    padding-top: 5px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
 }
